@@ -1,0 +1,32 @@
+{
+  "name": "write",
+  "version": "1.0.0",
+  "description": "> A \"distraction-free writing\" simple electron desktop app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "rollup -cmf cjs --watch -i lib/index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/write.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danigb/write/issues"
+  },
+  "homepage": "https://github.com/danigb/write#readme",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.4.15",
+    "electron-debug": "^1.1.0",
+    "electron-packager": "^8.5.1",
+    "hyperapp": "0.0.13",
+    "rollup": "^0.41.4",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2"
+  }
+}
